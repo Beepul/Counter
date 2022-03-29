@@ -1,0 +1,45 @@
+.application{
+  background-color: rgb(170, 236, 236);
+  height: 750px;
+}
+
+h1{
+  top:25%;
+  left: 32%;
+  position: absolute;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+h4{
+  position: absolute;
+  top: 40%;
+  left: 607px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.quantity{
+  position: absolute;
+  top: 56%;
+  left: 610px;
+  background-color: rgb(32, 143, 235);
+  height: 28px;
+  width: 267px;
+  margin: 10px;
+}
+.quantity_minus{
+ 
+  padding: 10px 20px 0px 20px;
+}
+.quantity_plus{
+  padding: 10px 20px 0px 18px;
+}
+.quantity_plus{
+  cursor: pointer;
+}
+.quantity_minus{
+  cursor: pointer;
+}
